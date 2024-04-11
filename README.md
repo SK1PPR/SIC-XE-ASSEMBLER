@@ -114,7 +114,11 @@ Structures of each are as follows :
 - **BLOCKS** : The struct contains information of blocks like its name, start address, block number, location counter value for end address of block, a character representing whether the block exits or not.
 - **CSECT** : The struct contains information of different control section like its name, start address,section number,length, location counter value for end address of section. It also contains two maps for `extref` and `extdef` of particular section.
 
+The figure below shows how source code is handled by machine
+![img1](report/img1.png)
 
+The figure below shows a more detailed view of the same
+![img2](report/img2.png)
 
 ## Instructions
 
